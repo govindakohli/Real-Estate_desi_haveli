@@ -9,7 +9,7 @@ import Services from "./Components/Service/Services";
 import About from "./Components/About/About"; // Fixed typo in component name
 import Blog from "./Components/Blog/Blog";
 import Pricings from "./Components/Pricings/Pricings";
-import SignIn from "./Components/signIn/SignIn"; // Fixed typo in component name
+import SignIn from "./Components/signIn/signin"; // Fixed typo in component name
 import Footer from "./Components/Footer/Footer"
 
 const App = () => {
