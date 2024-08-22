@@ -11,6 +11,7 @@ import Blog from "./Components/Blog/Blog";
 import Pricings from "./Components/Pricings/Pricings";
 import SignIn from "./Components/signIn/signin"; // Fixed typo in component name
 import Footer from "./Components/Footer/Footer"
+import SignUp from "./Components/signup/signup"
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/pricings" element={<Pricings />} />
         <Route path="/contact" element={<Contact />} /> {/* Fixed `component` to `element` */}
         <Route path="/signin" element={<SignIn />} /> {/* Fixed `component` to `element` */}
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
