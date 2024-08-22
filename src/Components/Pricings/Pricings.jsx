@@ -1,5 +1,5 @@
-import React from 'react'
-import "../Pricings/Pricings.css"
+import React from 'react';
+import "../Pricings/Pricings.css";
 
 const pricingPlans = [
   {
@@ -46,8 +46,8 @@ function Pricings() {
       <section className="pricing-hero-section">
         <div className="hero-content">
           <h1>Our Pricing Plans</h1>
-          <p>Explore our comprehensive pricing plans designed to suit various needs and budgets. Whether you're just starting out or looking for a complete solution, we have a plan for you.</p>
-          <p>Our pricing plans are transparent with no hidden fees, providing you with the flexibility to choose the best option based on your requirements. Dive into the details below to find the perfect plan for you.</p>
+          <p>Explore our comprehensive pricing plans designed to suit various needs and budgets. </p>
+          {/* <p>Our pricing plans are transparent with no hidden fees, providing you with the flexibility to choose the best option based on your requirements. Dive into the details below to find the perfect plan for you.</p> */}
         </div>
       </section>
 
@@ -81,4 +81,4 @@ function Pricings() {
   );
 }
 
-export default Pricings
+export default Pricings;
