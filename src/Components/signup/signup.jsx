@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import "../signup/signup.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function signup() {
   return (
@@ -22,12 +22,20 @@ function signup() {
           </div>
           <div className="input-group">
             <label>Confirm Password</label>
-            <input type="password" placeholder="Confirm your password" required />
+            <input
+              type="password"
+              placeholder="Confirm your password"
+              required
+            />
           </div>
-          <button type="submit" className="signup-button">Sign Up</button>
+          <button type="submit" className="signup-button">
+            Sign Up
+          </button>
         </form>
         <div className="signin-link">
-          <p>Already have an account? <Link to="/signin">Sign in</Link></p>
+          <p>
+            Already have an account? <Link to="/signin">Sign in</Link>
+          </p>
         </div>
       </div>
     </div>

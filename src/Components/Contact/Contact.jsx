@@ -1,5 +1,5 @@
-import React from 'react'
-import "../Contact/Contact.css"
+import React from "react";
+import "../Contact/Contact.css";
 
 function Contact() {
   return (
@@ -32,7 +32,7 @@ function Contact() {
           </div>
           <div className="contact-detail">
             <h3>Visit Us</h3>
-            <p>123 Haveli Lane, Old Town, Delhi, India</p>
+            <p> SCO-10 , Sector-17 , Chandigarh, India</p>
           </div>
         </div>
       </div>
@@ -42,34 +42,58 @@ function Contact() {
         <form className="contact-form">
           <div className="form-group">
             <label></label>
-            <input placeholder='First Name' type="text" name="firstName" required />
+            <input
+              placeholder="First Name"
+              type="text"
+              name="firstName"
+              required
+            />
           </div>
           <div className="form-group">
             <label></label>
-            <input placeholder='Last Name' type="text" name="lastName" required />
+            <input
+              placeholder="Last Name"
+              type="text"
+              name="lastName"
+              required
+            />
           </div>
           <div className="form-group">
             <label></label>
-            <input  placeholder='Email' type="email" name="email" required />
+            <input placeholder="Email" type="email" name="email" required />
           </div>
           <div className="form-group">
             <label></label>
-            <input  placeholder='Mobile Number' type="tel" name="mobile" required />
+            <input
+              placeholder="Mobile Number"
+              type="tel"
+              name="mobile"
+              required
+            />
           </div>
           <div className="form-group">
             <label></label>
-            <textarea placeholder='Message' name="message" rows="6" required></textarea>
+            <textarea
+              placeholder="Message"
+              name="message"
+              rows="6"
+              required
+            ></textarea>
           </div>
-          <button type="submit" className="submit-button">Submit</button>
+          <button type="submit" className="submit-button">
+            Submit
+          </button>
         </form>
       </div>
 
       <div className="map-section">
         <h2>Find Us on the Map</h2>
-        <p>We’re conveniently located in the heart of Delhi. Come visit us!</p>
+        <p>
+          We’re conveniently located in the heart of Chandigarh. Come visit us!
+        </p>
         <div className="map-embed">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.295509711393!2d77.2167217156935!3d28.61393937929515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd3e7bfbf00b%3A0x9f64e1e3eeb7e9b3!2sOld%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1614344120155!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3429.182508563678!2d76.78093207503797!3d30.74137453521591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSCO-10%20%2C%20Sector-17%20%2C%20Chandigarh%2C%20India!5e0!3m2!1sen!2sin!4v1724308774240!5m2!1sen!2sin"
             width="100%"
             height="450"
             allowFullScreen=""
@@ -81,4 +105,4 @@ function Contact() {
     </div>
   );
 }
-export default Contact
+export default Contact;
